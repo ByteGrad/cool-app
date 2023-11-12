@@ -38,3 +38,6 @@ next-env.d.ts
 
 #db
 dev.db*
+
+#notes
+notes.txt
