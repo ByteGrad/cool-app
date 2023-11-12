@@ -1,0 +1,117 @@
+Learn Next.js 14 in 1 Project
+
+high-value intro (3-5 mins)
+why it's exciting to learn Next.js?
+  new paradigm in Web Development and you're early = good for your career
+
+  showcase project
+
+  mention main concepts
+    routing
+    server components
+      by default in Vite everything is client component, all components are loaded on the client
+      all components are server components by default in Next.js
+      server components only run on the server
+        examples:
+          1) fetch data (GET)
+            without useEffect()
+            show fetch()
+            show prisma
+          2) keep large dependency on server
+            example: code highlighting
+            show what happens in browser when I make it client component
+          we can do anything we can usually do on the server,
+            like access the file system, and more
+      bc of these benefits best to keep a component a server component
+        but sometimes not possible: when e.g. using onClick
+    data fetching again (GET)
+      Suspense and streaming
+    server actions (POST / PUT / DELETE)
+      revalidate
+      loading state
+    typical folder structure
+
+show Hostinger
+  I will show you exactly how to set it up, it's very easy,
+    even if you don't know anything about VPS
+
+empathize that it will be a lot
+why next.js?
+  full-stack web apps,
+  you don't need a separate backend anymore,
+  all-in-one with React model
+prerequisites
+fresh install lookaround
+pages / routes vs components (mindset)
+client vs server (mindset)
+  server components only run on the server
+  server actions
+routing and navigation
+  layout and pages
+  dynamic routes
+  route groups
+metadata
+styling
+<Image /> and <Link /> components
+  img local vs external url
+client vs server components
+  show useState won't work in server component
+  show that adding more server components doesn't increase bundle size
+  show that adding more client components does increase bundle size
+  "use client" boundary
+  server components inside client components (e.g. context API)
+data fetching
+  console log on server means looking into terminal
+  loading.tsx
+  mention pre-rendering on /id page
+folder structure
+Suspense and streaming
+caching
+static and dynamic rendering
+  static at build time
+  dynamic at request time
+prisma setup
+server actions
+  add form in page component
+  add server action within page component ("use server")
+  refactor into separate component later
+  revalidation
+  loading state
+/api routes
+  webhook
+middleware
+  auth
+
+empathize with difficulties
+  pitch course
+
+deploy
+  static export
+  local build and next start
+  server-side features
+    managed platforms come with higher price tag
+    VPS from Hostinger is very affordable
+
+
+
+
+I’ve created a special link and promo code for an exclusive 10% discount.
+
+Link: https://hostinger.com/bytegrad
+
+10% Coupon Code: BYTEGRAD
+
+Personal recommendations (e.g. price-quality ratio);
+
+Please mention your discount code verbally and display it clearly on the screen. Please also mention your URL and make sure it’s placed at the top of the video description.
+
+Don’t forget to include a strong CTA – e.g. "Use this limited-time Black Friday deal to get an additional discount for all yearly plans with my code or link!";
+
+Demonstrate the onboarding process;
+
+It’s also very important to show where and how to use your exclusive coupon code. Please check the video example
+
+And lastly, sharing our Black Friday sale period offerings
+12-month VPS KVM2 plan subscription for just $6.99 per month (-63% discount, plus additional discount on top with coupon codes)
+24-month VPS KVM2 plan subscription for just $6.99 per month (-63% discount, plus additional discount on top with coupon codes)
+The sale will be running from Oct 30th - Dec 3rd: same VPS KVM pricing will be covering the pre-Black Friday Sale, Black Friday week, and Cyber Week
